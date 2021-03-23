@@ -1,4 +1,4 @@
-package com.example.fingermngr;
+package com.example.biometrics;
 
 import org.junit.Test;
 

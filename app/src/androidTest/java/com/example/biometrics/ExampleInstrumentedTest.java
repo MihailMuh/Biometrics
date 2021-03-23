@@ -1,4 +1,4 @@
-package com.example.fingermngr;
+package com.example.biometrics;
 
 import android.content.Context;
 

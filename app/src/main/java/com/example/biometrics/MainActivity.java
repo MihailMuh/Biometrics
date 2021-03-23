@@ -1,9 +1,7 @@
-package com.example.fingermngr;
+package com.example.biometrics;
 
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 
@@ -17,8 +15,7 @@ public class MainActivity extends AppCompatActivity {
         biometrics = new Biometrics(this);
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.R)
-    public void generateFingerMgr(View view) {
+    public void authenticate(View view) {
         biometrics.generateFingerMgr();
     }
 }
