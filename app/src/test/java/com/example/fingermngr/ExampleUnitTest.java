@@ -1,4 +1,4 @@
-package com.example.kieun.biometricprompt;
+package com.example.fingermngr;
 
 import org.junit.Test;
 
